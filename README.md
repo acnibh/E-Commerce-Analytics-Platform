@@ -18,7 +18,7 @@ In this project, "I will write 8 queries regarding the analysis of sales trends,
 ### Query 01: Find the total sales amount for each customer.
 #### SQL Code
 ```sql
-  SELECT customers.CustomerID,
+SELECT customers.CustomerID,
        Name,
 	   SUM(TotalAmount) AS Total_Sales
 FROM orders 
